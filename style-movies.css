@@ -1,0 +1,209 @@
+
+@font-face {
+    font-family: "grasstrack";
+    src: url(Fonts/Grasstrack.ttf);
+}
+
+@font-face {
+    font-family: "crew";
+    src: url(Fonts/NewkidsCrewDEMO.otf);
+}
+@font-face {
+    font-family: "faster";
+    src: url(Fonts/Faster\ Stroker.otf);
+}
+@font-face {
+    font-family: "knuckles";
+    src: url(Fonts/BareKnucklesDEMO.otf);
+}
+
+body{background-image: url(images/graydesign2.png);
+    background-size: cover;
+    width: 100%;
+}
+
+#menu {
+    width: 100%;
+    height: 37;
+    background-color: dimgrey;
+    padding-top: 20px;
+    float: right;
+}
+
+#menu a{
+    color: aliceblue;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-decoration: none;
+    text-shadow: #171919 2px 2px 2px;
+    transition-duration: 0.4s;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+#menu a:hover{
+    color: #2378DA;
+
+}
+
+
+H1{ 
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:#2378DA;
+    font-display:initial;
+    margin-top: -0.50%;
+    margin-bottom: 0%;
+    background-color: dimgrey;
+    background-size:100%;
+    text-shadow: 5px -5px 5px rgb(15, 12, 12);
+    padding-top: 6px;
+}
+
+
+
+
+
+H2{
+    
+    
+    font-family: "crew",sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+    text-shadow: #171919 5px -5px 3px;
+    margin-left: +18%;
+    transition-duration: 0.4s;
+    
+          
+}
+
+H2:hover{
+  
+    font-family: "crew",sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    text-shadow: #4c92f4 5px -5px 3px;
+}
+H4{
+    
+    
+    font-family: Helvetica ,sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    margin:-50px 200px ;
+    background-size: 200px ;
+    color:#4c92f4 ;
+    text-shadow: #171919 2px 2px 2px;
+}
+
+H5{
+    
+    
+    font-family: "crew";
+    font-size: 80px;;
+    font-weight: 400;
+    color: white;
+    text-shadow: #171919 5px -5px 3px;
+    margin-left: +1%;
+    
+          
+}
+
+H5:hover{
+  
+    font-family: "crew";
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    text-shadow: #4c92f4 5px -5px 3px;
+}
+
+
+
+
+table{ 
+  
+     border-collapse: collapse;
+     margin-left: 2%;
+     margin-right: 2%;  
+}
+    
+th{ 
+    font-family: "faster" ,sans-serif;
+    font-size: 50px;
+    font-weight:800 ;
+    text-shadow: #171919 2px -2px 2px;
+    background-color: rgb(98, 97, 97);
+    color: whitesmoke;
+}
+
+tr{
+    
+    padding-top: 100px;
+    margin-left: 5%;
+    font-size: 35px;
+    font-weight: 500 ;
+    background-color: darkgray;
+    color: #171919 ;
+}
+
+td{
+   margin-left: 10px;
+
+}
+p{ 
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 500 ;
+    text-shadow: #171919 2px 2px;
+    color: #ffffff ;
+}
+
+.btn {
+    border-radius: 40px;
+    border: 0;
+    font-size: 1,8rem;
+    font-weight: 600;
+    margin: 20px 50px;
+    padding:2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 200px;
+    height: 50px;
+    
+}
+    
+.btn--outline {
+    background: #171919;
+    color: white;
+    border: 2px solid grey;    
+}
+.btn--outline:hover{
+    background-color: darkgray;  
+    color: black;
+}
+
+
+#home a{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   }
+   
+#home a:hover {
+    background-color: #171919;
+    color: white;
+       
+   }
